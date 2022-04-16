@@ -1,0 +1,31 @@
+.header{
+    padding: 20px;
+
+   &__name{
+       font-size: 70px;
+       line-height: 85px;
+       color: #01384D;
+       font-family: 'Overpass';
+       font-weight: 500;
+   }
+
+   &__btn{
+    border: 2px solid #01384D;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 180px;
+    height: 45px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #01384D;
+    font-family: 'Josefin Sans';
+    transition: 0.5s;
+
+    &:hover{
+        transform: scale(0.90);
+        background-color: #01384D;
+        color: #fff;
+    }
+   }
+}

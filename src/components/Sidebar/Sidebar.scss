@@ -1,0 +1,228 @@
+.navbar{
+
+    &__link{
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 12px;
+        color: #01384D;
+        text-decoration: none;
+        transition: 0.8s;
+        font-family: 'Josefin Sans';
+
+        &:hover{
+            color: #d1940f;
+            // font-weight: bold;
+        }
+    }
+
+    &__item{
+        margin: 10px;
+    }
+    &__btn{
+        font-family: 'Josefin Sans';
+        width: 180px;
+        height: 45px;
+        background-color: #fff;
+        border: 2px solid #01384D;
+        box-sizing: border-box;
+        border-radius: 5px; 
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        color: #01384D;
+        transition: 0.7s;
+
+        &:hover{
+            transform: scale(0.90);
+            background-color: #01384D;
+            color: #fff;
+        }
+
+        &:hover:active{
+            background-color: #01384D;
+            color: #fff;
+            transform: scale(0.9);
+        }
+    }
+    &__links{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        color: #01384D;
+        font-family: 'Josefin Sans';
+    }
+
+    &__linkss{
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 25px;
+        color: #01384D;
+        font-family: 'Beau Rivage', cursive;
+        letter-spacing: 2px;
+        transition: 0.5s;
+
+        &:hover{
+            color: #01384D;
+        }
+    }
+
+    &__page{
+        transition: 0.5s;
+
+        &:hover{
+            transform: scale(0.85);
+        }
+    }
+
+    &__names{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 35px;
+        color: #01384D; 
+        font-family: 'Josefin Sans';
+    }
+
+    &__close{
+        position:absolute;
+        left: 92%;
+        top: 3%;
+    }
+
+    &__surname{
+        width: 320px;
+        height: 54px;
+        border: 2px solid #01384D;
+        border-radius: 5px;
+        box-sizing: border-box;
+        outline: none;
+
+        &::placeholder{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        color: #01384D;
+        opacity: 0.7;
+        padding-bottom: 5px;
+        }
+    }
+
+    &__number{
+        width: 240px;
+        height: 50px;
+        background-color: #fff;
+        border-radius: 0px 5px 5px 0px;
+        border: 2px solid #01384D;
+        outline: none;
+
+        &::placeholder{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 16px;
+            color: #01384D;
+            opacity: 0.7;
+            padding-bottom: 5px;
+        }
+    }
+
+    &__btns{
+        background-color: #01384D;
+        color: #fff;
+        width: 80px;
+        height: 50px;
+        border-radius: 5px 0px 0px 5px;
+        border: 2px solid #01384D;
+        outline: none;
+    }
+
+    &__list{
+        display: flex;
+        margin-top: 10px;
+    }
+
+    &__product{
+        font-family: 'Josefin Sans';
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 18px;
+        color: #01384D;
+        margin-top: 35px;
+    }
+
+    &__select{
+        width: 320px;
+        height: 50px;
+        border: 2px solid #01384D;
+        box-sizing: border-box;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+}
+
+.modal-content{
+    height: 520px;
+    width: 360px;
+}
+
+.sidebar{
+
+    &__lists{
+        display: flex;
+        width: 320px;
+        align-items: center;
+    }
+
+    &__plus{
+        width:70px;
+        height: 50px;
+        border: 2px solid #01384D;
+        box-sizing: border-box;
+        border-radius: 5px;
+        background-color: #fff;
+        outline: none;
+        color: #01384D;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 24px;
+        font-family: 'Josefin Sans';
+    }
+
+    &__box{
+        width: 180px;
+        height: 50px;
+        border: 2px solid #01384D;
+        box-sizing: border-box;
+        border-radius: 5px;
+        background-color: #fff;
+        text-align: center;
+    }
+    &__number{
+        color: #01384D;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 24px;
+        font-family: 'Josefin Sans';
+        padding-top: 10px;
+    }
+
+    &__button{
+        width: 320px;
+        height: 45px;
+        background-color: #01384D;
+        color: #fff;
+        border-radius: 5px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 18px;
+        font-family: 'Josefin Sans';
+        border: 2px solid #01384D;
+        margin-top: 20px;
+        transition: 0.8s;
+
+        &:hover{
+            background-color: #fff;
+            color: #01384D;
+            transform: scale(0.9);
+        }
+    }
+}
